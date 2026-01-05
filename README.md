@@ -1,2 +1,2 @@
 # API-Integration
-“Create your own API key and replace YOUR_API_KEY.”
+“This project uses Open-Meteo public API which does not require an API key.”
