@@ -56,3 +56,7 @@ Enter a city name and click Get Weather
 📝 Note
 
 This project uses a public weather API that does not require an API key, ensuring safe and secure hosting on GitHub.
+
+## OUTPUT:
+
+[Weather_App.bmp](https://github.com/user-attachments/files/24436531/Weather_App.bmp)
