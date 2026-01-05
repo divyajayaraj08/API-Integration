@@ -1,0 +1,27 @@
+/* Apply basic styling to body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 50px;
+}
+
+/* Style input box */
+input {
+    padding: 10px;
+    width: 200px;
+}
+
+/* Style button */
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* Style result display */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
