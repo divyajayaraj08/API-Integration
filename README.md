@@ -1,4 +1,4 @@
-# API-Integration
+# API-INTEGRATION
 
 *COMPANY*   : CODTECH IT SOLUTIONS
 
