@@ -1,27 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Weather App</title>
-
-    <!-- Linking external CSS file -->
-    <link rel="stylesheet" href="style.css">
-</head>
+<link rel="stylesheet" href="style.css">
 <body>
 
-    <!-- Main heading -->
-    <h1>Weather Application</h1>
+    <div class="container">
+        <h1>🌤️ Weather Application</h1>
 
-    <!-- Input box to enter city name -->
-    <input type="text" id="city" placeholder="Enter City Name">
+        <input type="text" id="city" placeholder="Enter City Name">
 
-    <!-- Button to fetch weather data -->
-    <button onclick="getWeather()">Get Weather</button>
+        <button onclick="getWeather()">Get Weather</button>
 
-    <!-- Weather result will be displayed here -->
-    <div id="result"></div>
+        <div id="result"></div>
+    </div>
 
-    <!-- Linking external JavaScript file -->
     <script src="script.js"></script>
 </body>
-</html>
