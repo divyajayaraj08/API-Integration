@@ -1,27 +1,80 @@
-/* Apply basic styling to body */
-body {
+/* Apply default styling to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
+}
+
+/* Style the whole page and set background image */
+body {
+    min-height: 100vh; /* Full screen height */
+
+    /* Weather background image */
+    background-image: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?q=80&w=1600");
+    background-size: cover;       /* Cover full screen */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* No repeat */
+
+    /* Center the container horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main card container (glass effect) */
+.container {
+    background: rgba(255, 255, 255, 0.2); /* Transparent white */
+    backdrop-filter: blur(10px);          /* Glass blur effect */
+    padding: 30px;
+    border-radius: 16px;                  /* Rounded corners */
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);/* Shadow for depth */
     text-align: center;
-    background-color: #e3f2fd;
-    padding: 50px;
+    width: 350px;
 }
 
-/* Style input box */
+/* Heading style */
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Input box styling */
 input {
-    padding: 10px;
-    width: 200px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
 }
 
-/* Style button */
+/* Button styling */
 button {
-    padding: 10px 15px;
-    margin-left: 5px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #2196f3;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
+    transition: 0.3s; /* Smooth hover effect */
 }
 
-/* Style result display */
+/* Button hover effect */
+button:hover {
+    background: #1976d2;
+}
+
+/* Result display box */
 #result {
     margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.85);
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
 }
