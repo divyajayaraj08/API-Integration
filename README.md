@@ -59,4 +59,4 @@ This project uses a public weather API that does not require an API key, ensurin
 
 ## OUTPUT:
 
-[Weather_App.bmp](https://github.com/user-attachments/files/24436531/Weather_App.bmp)
+![Image](https://github.com/user-attachments/assets/e2fce091-3eec-4aff-992d-692bffd95b6f)
