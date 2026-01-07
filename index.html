@@ -1,15 +1,36 @@
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Title shown in browser tab -->
+    <title>Weather Application</title>
+
+    <!-- Linking external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
+    <!-- Main container that holds the entire app UI -->
     <div class="container">
+
+        <!-- App heading -->
         <h1>🌤️ Weather Application</h1>
 
+        <!-- Input box for entering city name -->
         <input type="text" id="city" placeholder="Enter City Name">
 
+        <!-- Button to fetch weather data -->
         <button onclick="getWeather()">Get Weather</button>
 
+        <!-- This div will display the weather result -->
         <div id="result"></div>
+
     </div>
 
+    <!-- Linking external JavaScript file -->
     <script src="script.js"></script>
+
 </body>
+</html>
