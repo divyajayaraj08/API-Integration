@@ -1,62 +1,54 @@
-# API-INTEGRATION
+🌤️ Weather App – API Integration Project
 
-*COMPANY*   : CODTECH IT SOLUTIONS
+## 📖 Project Overview
 
-*NAME*      : DIVYA J
+This project is a simple and responsive Weather Application developed as part of **Task 6 – API Integration**.
 
-*INTERN ID* : CTIS0930
+The application demonstrates how to fetch and display real-time weather data from a public API using JavaScript. Users can enter any city name to view current weather details such as temperature and wind speed.
 
-*DOMAIN*    : FULL STACK WEB DEVELOPMENT
 
-*DURATION*  : 4 WEEKS
+## 🚀 Features
 
-*MENTOR*    : NEELA SANTOSH
+* Search weather by city name
+* Fetch real-time data using API
+* Display temperature and wind speed
+* Handle invalid city input
+* Loading state while fetching data
+* Responsive UI design
 
-This project is a simple and responsive Weather Application developed as part of Task 1 – API Integration.
-The application demonstrates how to fetch and display real-time weather data from a public API using JavaScript.
+## ⚙️ APIs Used
 
-The user can enter the name of any city, and the application dynamically retrieves the current weather information such as temperature and wind speed. The project focuses on understanding API requests, handling JSON responses, and updating the user interface dynamically.
+* Open-Meteo Geocoding API
+* Open-Meteo Weather API
 
-⚙️ API Used
 
-Open-Meteo Public Weather API
+## 🛠️ Tech Stack
 
-Open-Meteo Geocoding API
+* HTML
+* CSS
+* JavaScript
+* Fetch API
 
-These APIs are free to use and do not require an API key, making them suitable for learning and demonstration purposes.
+## ▶️ How It Works
 
-🛠️ Technologies Used
+1. User enters a city name
+2. App fetches latitude & longitude using Geocoding API
+3. Weather data is fetched using the Weather API
+4. Results are displayed dynamically on the UI
 
-HTML
+## 💻 How to Run
 
-CSS
+1. Clone the repository
+2. Open index.html in a browser
+3. Enter a city name and click **Get Weather**
 
-JavaScript
 
-Public REST APIs
+## 📌 Internship Task
 
-▶️ How It Works
+This project is created as part of the Synent Technologies Web Development Internship (Task 6 – API Integration)
 
-User enters a city name
 
-The application fetches latitude and longitude using the geocoding API
+## 🙋‍♀️ Author
 
-Weather data is retrieved using the weather API
-
-The results are displayed dynamically on the webpage
-
-🚀 How to Run the Project
-
-Clone or download the repository
-
-Open index.html in any modern web browser
-
-Enter a city name and click Get Weather
-
-📝 Note
-
-This project uses a public weather API that does not require an API key, ensuring safe and secure hosting on GitHub.
-
-## OUTPUT:
-
-![Image](https://github.com/user-attachments/assets/e2fce091-3eec-4aff-992d-692bffd95b6f)
+Divya J
+CSE Student | Aspiring Web Developer
